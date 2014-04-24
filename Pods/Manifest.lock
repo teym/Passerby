@@ -50,13 +50,13 @@ DEPENDENCIES:
   - Funcussion (HEAD)
   - ISMethodSwizzling (HEAD)
   - libextobjc (HEAD)
-  - Multipeer (from `/Users/teym/code/Multipeer/Multipeer.podspec`)
+  - Multipeer (from `https://raw.githubusercontent.com/teym/Multipeer/master/Multipeer.podspec`)
   - ObjcAssociatedObjectHelpers (HEAD)
   - ReactiveCocoa (HEAD)
 
 EXTERNAL SOURCES:
   Multipeer:
-    :podspec: /Users/teym/code/Multipeer/Multipeer.podspec
+    :podspec: https://raw.githubusercontent.com/teym/Multipeer/master/Multipeer.podspec
 
 SPEC CHECKSUMS:
   Funcussion: f8383c7db59d37a4f6c75e787e6e41e1b0d2a792
