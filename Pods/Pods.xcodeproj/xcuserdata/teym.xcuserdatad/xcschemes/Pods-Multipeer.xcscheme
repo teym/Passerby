@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "10B59E888077451A8F733C59"
+               BlueprintIdentifier = "A086757C490B4DC9A9D29FA6"
                BuildableName = "libPods-Multipeer.a"
                BlueprintName = "Pods-Multipeer"
                ReferencedContainer = "container:Pods.xcodeproj">

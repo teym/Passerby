@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		58C329B7C9814A988F6F93D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F52EDBB6CE974BA8B61187F9 /* libPods.a */; };
+		F511FA091904044200A04132 /* WelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F511FA081904044200A04132 /* WelcomeController.m */; };
+		F511FA0C19040C8E00A04132 /* UIViewController+StoryboardHack.m in Sources */ = {isa = PBXBuildFile; fileRef = F511FA0B19040C8E00A04132 /* UIViewController+StoryboardHack.m */; };
+		F522497018FA8FAB0071F98D /* ServiceManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F522496F18FA8FAB0071F98D /* ServiceManage.m */; };
+		F522497318FAC6750071F98D /* UserManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F522497218FAC6750071F98D /* UserManage.m */; };
+		F522497618FAC6830071F98D /* MessageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F522497518FAC6830071F98D /* MessageManage.m */; };
+		F522499918FE7D470071F98D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F522499818FE7D470071F98D /* User.m */; };
+		F522499C18FE7D5A0071F98D /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = F522499B18FE7D5A0071F98D /* Message.m */; };
 		F5B1846D18F7E45B0054A151 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B1846C18F7E45B0054A151 /* ProfileViewController.m */; };
 		F5CDA6E318F58B690079C62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA6E218F58B690079C62F /* Foundation.framework */; };
 		F5CDA6E518F58B690079C62F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA6E418F58B690079C62F /* CoreGraphics.framework */; };
@@ -39,6 +46,20 @@
 
 /* Begin PBXFileReference section */
 		F4A19A6F318A45E1B85577B0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F511FA071904044200A04132 /* WelcomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeController.h; sourceTree = "<group>"; };
+		F511FA081904044200A04132 /* WelcomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeController.m; sourceTree = "<group>"; };
+		F511FA0A19040C8E00A04132 /* UIViewController+StoryboardHack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+StoryboardHack.h"; sourceTree = "<group>"; };
+		F511FA0B19040C8E00A04132 /* UIViewController+StoryboardHack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+StoryboardHack.m"; sourceTree = "<group>"; };
+		F522496E18FA8FAB0071F98D /* ServiceManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManage.h; sourceTree = "<group>"; };
+		F522496F18FA8FAB0071F98D /* ServiceManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManage.m; sourceTree = "<group>"; };
+		F522497118FAC6750071F98D /* UserManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManage.h; sourceTree = "<group>"; };
+		F522497218FAC6750071F98D /* UserManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManage.m; sourceTree = "<group>"; };
+		F522497418FAC6830071F98D /* MessageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageManage.h; sourceTree = "<group>"; };
+		F522497518FAC6830071F98D /* MessageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageManage.m; sourceTree = "<group>"; };
+		F522499718FE7D470071F98D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F522499818FE7D470071F98D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F522499A18FE7D5A0071F98D /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F522499B18FE7D5A0071F98D /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		F52EDBB6CE974BA8B61187F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B1846B18F7E45B0054A151 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		F5B1846C18F7E45B0054A151 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
@@ -137,6 +158,20 @@
 				F5CDA6FB18F58B690079C62F /* ModelController.m */,
 				F5B1846B18F7E45B0054A151 /* ProfileViewController.h */,
 				F5B1846C18F7E45B0054A151 /* ProfileViewController.m */,
+				F511FA071904044200A04132 /* WelcomeController.h */,
+				F511FA081904044200A04132 /* WelcomeController.m */,
+				F522496E18FA8FAB0071F98D /* ServiceManage.h */,
+				F522496F18FA8FAB0071F98D /* ServiceManage.m */,
+				F522497118FAC6750071F98D /* UserManage.h */,
+				F522497218FAC6750071F98D /* UserManage.m */,
+				F522497418FAC6830071F98D /* MessageManage.h */,
+				F522497518FAC6830071F98D /* MessageManage.m */,
+				F522499718FE7D470071F98D /* User.h */,
+				F522499818FE7D470071F98D /* User.m */,
+				F522499A18FE7D5A0071F98D /* Message.h */,
+				F522499B18FE7D5A0071F98D /* Message.m */,
+				F511FA0A19040C8E00A04132 /* UIViewController+StoryboardHack.h */,
+				F511FA0B19040C8E00A04132 /* UIViewController+StoryboardHack.m */,
 				F5CDA6FD18F58B690079C62F /* Main.storyboard */,
 				F5CDA70018F58B690079C62F /* Images.xcassets */,
 				F5CDA6E918F58B690079C62F /* Supporting Files */,
@@ -312,12 +347,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F522499918FE7D470071F98D /* User.m in Sources */,
 				F5CDA6F918F58B690079C62F /* DataViewController.m in Sources */,
+				F522497018FA8FAB0071F98D /* ServiceManage.m in Sources */,
 				F5CDA6F318F58B690079C62F /* AppDelegate.m in Sources */,
+				F511FA0C19040C8E00A04132 /* UIViewController+StoryboardHack.m in Sources */,
 				F5CDA6FC18F58B690079C62F /* ModelController.m in Sources */,
+				F522497618FAC6830071F98D /* MessageManage.m in Sources */,
 				F5CDA6EF18F58B690079C62F /* main.m in Sources */,
 				F5B1846D18F7E45B0054A151 /* ProfileViewController.m in Sources */,
 				F5CDA6F618F58B690079C62F /* RootViewController.m in Sources */,
+				F522499C18FE7D5A0071F98D /* Message.m in Sources */,
+				F511FA091904044200A04132 /* WelcomeController.m in Sources */,
+				F522497318FAC6750071F98D /* UserManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

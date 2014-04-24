@@ -28,7 +28,7 @@
 #define COCOAPODS_POD_AVAILABLE_ObjcAssociatedObjectHelpers
 #define COCOAPODS_VERSION_MAJOR_ObjcAssociatedObjectHelpers 1
 #define COCOAPODS_VERSION_MINOR_ObjcAssociatedObjectHelpers 2
-#define COCOAPODS_VERSION_PATCH_ObjcAssociatedObjectHelpers 0
+#define COCOAPODS_VERSION_PATCH_ObjcAssociatedObjectHelpers 1
 
 // ReactiveCocoa
 #define COCOAPODS_POD_AVAILABLE_ReactiveCocoa

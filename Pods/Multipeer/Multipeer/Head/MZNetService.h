@@ -13,7 +13,7 @@
 #import "MZNetDataTask.h"
 
 @protocol MZNetServiceDelegate <NSObject>
--(BOOL) shouldConnect:(MZPeer*) peer type:(NSString*) type;
+-(BOOL) shouldConnect:(MZPeer*) peer type:(NSString*) type;//type advertiser or inviter
 -(void) onRequest:(MZRequest*) request fromPeer:(MZPeer*) peer;
 -(void) onNewPeer:(MZPeer*) peer type:(NSString*) type;
 @end

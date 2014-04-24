@@ -13,4 +13,12 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <NSDictionary+Funcussion.h>
+    #import <NSArray+Funcussion.h>
+    #import <ISMethodSwizzling.h>
+    #import <ObjcAssociatedObjectHelpers.h>
+    #import <ReactiveCocoa.h>
+    #import <extobjc.h>
 #endif
+
+#define MZLOG NSLog

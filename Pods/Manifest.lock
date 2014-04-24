@@ -38,7 +38,7 @@ PODS:
   - libextobjc/UmbrellaHeader (HEAD based on 0.4)
   - Multipeer (0.1.1):
     - Funcussion (~> 0.1.1)
-  - ObjcAssociatedObjectHelpers (HEAD based on 1.2.0)
+  - ObjcAssociatedObjectHelpers (HEAD based on 1.2.1)
   - ReactiveCocoa (HEAD based on 2.3):
     - ReactiveCocoa/Core
     - ReactiveCocoa/no-arc
@@ -63,7 +63,7 @@ SPEC CHECKSUMS:
   ISMethodSwizzling: 71d6d5758975902f240ea1bedc1aa4b5d1027421
   libextobjc: 2c9fc8226f0f38e562587f65172f93f0c9b4a47a
   Multipeer: c30bbae00f88c5ee0b74197d0ddd45a6bad007f3
-  ObjcAssociatedObjectHelpers: 176a5f0cb81ae436b4f84b12e513962c32556f85
+  ObjcAssociatedObjectHelpers: 6e6d32dd3853f567d3b41924ff42eb565628ec38
   ReactiveCocoa: 1f6265f9d521923d3efcc37b00722cefc16df269
 
-COCOAPODS: 0.31.1
+COCOAPODS: 0.32.1

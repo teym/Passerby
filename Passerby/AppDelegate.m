@@ -8,12 +8,23 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.manage = [[ServiceManage alloc] init];
+    [self.manage initService];
+    [self showPrepareWithFinish:^{
+        [self onReady];
+    }];
     return YES;
+}
+-(void) showPrepareWithFinish:(void(^)())block{
+    [TheRootController performSegueWithIdentifier:@"showWelcome" sender:@{@"FinalBlock":block}];
+}
+-(void) onReady{
+    [self.manage startService];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

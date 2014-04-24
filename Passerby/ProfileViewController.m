@@ -8,8 +8,12 @@
 
 #import "ProfileViewController.h"
 
-@interface ProfileViewController ()
-
+@interface ProfileViewController ()<UITableViewDataSource,UITableViewDelegate,UITextFieldDelegate>
+@property (weak) IBOutlet UISwitch * ServiceSwitch;
+@property (weak) IBOutlet UIImageView * avatar;
+@property (weak) IBOutlet UITextField * nickName;
+@property (weak) IBOutlet UITextField * shortText;
+@property (weak) IBOutlet UITableView * table;
 @end
 
 @implementation ProfileViewController
@@ -45,5 +49,23 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+#pragma mark --action
+-(IBAction)onServiceSwitch:(id)sender{
+    
+}
+-(IBAction)onBack:(id)sender{
+    
+}
+#pragma mark --tableview
+-(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 4;
+}
+-(UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString * reusableIdentifier = @"cell";
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:reusableIdentifier];
+    if(!cell){
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reusableIdentifier];
+    }
+    return cell;
+}
 @end
