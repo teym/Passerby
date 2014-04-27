@@ -11,9 +11,11 @@
 #import "MessageManage.h"
 
 @interface ServiceManage : NSObject
+@property (readonly) BOOL isFirstRun;
 @property (readonly) BOOL serviceOn;
 @property (strong) UserManage * userMgr;
 @property (strong) MessageManage * msgMgr;
 -(void) initService;
 -(void) startService;
+-(void) stopService;
 @end

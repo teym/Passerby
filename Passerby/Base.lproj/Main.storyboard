@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PxF-Ax-wPy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PxF-Ax-wPy">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -49,7 +49,7 @@
         <!--Profile View Controller-->
         <scene sceneID="Ctu-w9-8vr">
             <objects>
-                <viewController id="54b-V8-Npg" customClass="ProfileViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="profile" id="54b-V8-Npg" customClass="ProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k7o-SU-18a"/>
                         <viewControllerLayoutGuide type="bottom" id="VRI-HK-AmC"/>
@@ -131,9 +131,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="ServiceSwitch" destination="bLw-OP-Rm0" id="mR3-zA-xEL"/>
                         <outlet property="avatar" destination="XFU-wf-7Yq" id="8m5-7G-ghl"/>
                         <outlet property="nickName" destination="8k9-PP-49g" id="RSM-pd-2ip"/>
+                        <outlet property="serviceSwitch" destination="bLw-OP-Rm0" id="BMz-2F-Ns5"/>
                         <outlet property="shortText" destination="wdz-et-5It" id="Sdb-1g-pKM"/>
                         <outlet property="table" destination="JvN-LX-FzS" id="QgZ-Ir-7CA"/>
                     </connections>
@@ -181,6 +181,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pP-LV-iCx">
+                                <rect key="frame" x="137" y="348" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onStart:" destination="PVR-Z1-3Wx" eventType="touchUpInside" id="B6R-aq-lOD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="input name to start" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqj-9S-pGz">
+                                <rect key="frame" x="86" y="158" width="149" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

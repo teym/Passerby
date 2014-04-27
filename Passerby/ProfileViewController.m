@@ -7,9 +7,10 @@
 //
 
 #import "ProfileViewController.h"
+#import "AppDelegate.h"
 
 @interface ProfileViewController ()<UITableViewDataSource,UITableViewDelegate,UITextFieldDelegate>
-@property (weak) IBOutlet UISwitch * ServiceSwitch;
+@property (weak) IBOutlet UISwitch * serviceSwitch;
 @property (weak) IBOutlet UIImageView * avatar;
 @property (weak) IBOutlet UITextField * nickName;
 @property (weak) IBOutlet UITextField * shortText;
@@ -30,6 +31,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    RAC(_serviceSwitch,on) = RACObserve(TheServiceManage, serviceOn);
     // Do any additional setup after loading the view.
 }
 
@@ -50,8 +52,8 @@
 }
 */
 #pragma mark --action
--(IBAction)onServiceSwitch:(id)sender{
-    
+-(IBAction)onServiceSwitch:(UISwitch*)sender{
+    sender.on?[TheServiceManage startService]:[TheServiceManage stopService];
 }
 -(IBAction)onBack:(id)sender{
     

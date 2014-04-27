@@ -32,6 +32,7 @@
 		F5CDA70A18F58B690079C62F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA6E618F58B690079C62F /* UIKit.framework */; };
 		F5CDA71218F58B690079C62F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA71018F58B690079C62F /* InfoPlist.strings */; };
 		F5CDA71418F58B690079C62F /* PasserbyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA71318F58B690079C62F /* PasserbyTests.m */; };
+		F5F90ECC190A5A760038BB5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F90ECB190A5A760038BB5E /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		F5CDA70F18F58B690079C62F /* PasserbyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasserbyTests-Info.plist"; sourceTree = "<group>"; };
 		F5CDA71118F58B690079C62F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5CDA71318F58B690079C62F /* PasserbyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasserbyTests.m; sourceTree = "<group>"; };
+		F5F90ECB190A5A760038BB5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F90ECC190A5A760038BB5E /* Security.framework in Frameworks */,
 				F5CDA6E518F58B690079C62F /* CoreGraphics.framework in Frameworks */,
 				F5CDA6E718F58B690079C62F /* UIKit.framework in Frameworks */,
 				F5CDA6E318F58B690079C62F /* Foundation.framework in Frameworks */,
@@ -136,6 +139,7 @@
 		F5CDA6E118F58B690079C62F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5F90ECB190A5A760038BB5E /* Security.framework */,
 				F5CDA6E218F58B690079C62F /* Foundation.framework */,
 				F5CDA6E418F58B690079C62F /* CoreGraphics.framework */,
 				F5CDA6E618F58B690079C62F /* UIKit.framework */,

@@ -21,7 +21,13 @@
     return YES;
 }
 -(void) showPrepareWithFinish:(void(^)())block{
-    [TheRootController performSegueWithIdentifier:@"showWelcome" sender:@{@"FinalBlock":block}];
+    if(self.manage.isFirstRun){
+        [TheRootController performSegueWithIdentifier:@"showWelcome" sender:@{@"FinalBlock":block}];
+    }else{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            block();
+        });
+    }
 }
 -(void) onReady{
     [self.manage startService];

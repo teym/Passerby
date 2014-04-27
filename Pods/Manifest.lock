@@ -1,5 +1,6 @@
 PODS:
   - Funcussion (HEAD based on 0.1.1)
+  - FXKeychain (HEAD based on 1.5)
   - ISMethodSwizzling (HEAD based on 0.0.2)
   - libextobjc (HEAD based on 0.4):
     - libextobjc/EXTADT
@@ -48,6 +49,7 @@ PODS:
 
 DEPENDENCIES:
   - Funcussion (HEAD)
+  - FXKeychain (HEAD)
   - ISMethodSwizzling (HEAD)
   - libextobjc (HEAD)
   - Multipeer (from `https://raw.githubusercontent.com/teym/Multipeer/master/Multipeer.podspec`)
@@ -60,6 +62,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Funcussion: f8383c7db59d37a4f6c75e787e6e41e1b0d2a792
+  FXKeychain: 90cc7bf9ba005e4d099a113a194792e7983c5778
   ISMethodSwizzling: 71d6d5758975902f240ea1bedc1aa4b5d1027421
   libextobjc: 2c9fc8226f0f38e562587f65172f93f0c9b4a47a
   Multipeer: c30bbae00f88c5ee0b74197d0ddd45a6bad007f3

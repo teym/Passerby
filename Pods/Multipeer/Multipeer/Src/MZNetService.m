@@ -245,12 +245,13 @@
     dispatch_async(self.sendQueue, ^{
         [task.progress becomeCurrentWithPendingUnitCount:50];
         NSProgress * process = [self.session sendResourceAtURL:file withName:fileName toPeer:peers.firstObject withCompletionHandler:^(NSError *error) {
-            NSLog(@"progress parent:%@",process);
+//            NSLog(@"progress parent:%@",process);
             dispatch_async(self.processQueue, ^{
                 NSLog(@"send resource:%@ error:%@",file,error);
                 [self onTaskEndSend:task withPeers:peers error:error];
             });
         }];
+        NSLog(@"progress parent:%@",process);
         [task.progress resignCurrent];
         dispatch_async(self.processQueue, ^{
             [self onTaskBeginSend:task withPeers:peers];

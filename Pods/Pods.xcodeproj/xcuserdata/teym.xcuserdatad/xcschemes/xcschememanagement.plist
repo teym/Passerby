@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-FXKeychain.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Funcussion.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -41,6 +46,47 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>3337FA5B80934765BC9FE1F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43DBF81455FB4A9AA6EFFEA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62B554CDB867456A9B632B50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>738482D9F7704552B7706912</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88EAB7BED3104405842863A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1DC9C3EB7FB4EDC9736075B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D4635CA3D70847538C189E2C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E760D7C367CA4C3B830ABDFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -10,5 +10,4 @@
 #import "User.h"
 @interface UserManage : NSObject
 @property (strong) User * myself;
--(void) updateSelfInfo;
 @end

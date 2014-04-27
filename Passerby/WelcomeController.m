@@ -10,6 +10,7 @@
 #import "AppDelegate.h"
 
 @interface WelcomeController ()
+@property (weak) UITextField * nameField;
 @property (copy) void(^FinalBlock)();
 @end
 
@@ -48,6 +49,7 @@
 */
 #pragma mark -- action
 -(IBAction)onStart:(id)sender{
-    
+    TheUserManage.myself.name = self.nameField.text;
+    self.FinalBlock();
 }
 @end
