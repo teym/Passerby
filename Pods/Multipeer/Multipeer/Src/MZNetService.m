@@ -69,6 +69,7 @@
     
     [self.browser startBrowsingForPeers];
     [self.advertiser startAdvertisingPeer];
+    NSLog(@"service started --");
 }
 -(void) stopService{
     self.advertiser.delegate = nil;
@@ -77,6 +78,7 @@
     [self.browser startBrowsingForPeers];
     self.session.delegate = nil;
     [self.session disconnect];
+    NSLog(@"service stoped --");
     //clean request recving peers
 }
 -(void) taskWaitResponse:(MZNetDataTask*) task{
@@ -149,15 +151,20 @@
     }
 }
 -(void) onPeerLost:(MCPeerID*)peerID{
+    NSLog(@"peerlost %@",peerID.displayName);
     MZPeer * peer = [self.connectedPeers objectForKey:peerID.displayName];
+    NSAssert(peer, @"there mast fond peer");
     peer.status = PeerUnConnected;
     [self.connectedPeers removeObjectForKey:peer.name];
 }
 -(void) onNewPeer:(MCPeerID*)peerID info:(id) info type:(NSString*)type{
+    NSLog(@"newpeer %@ %@ %@",peerID.displayName,info,type);
     MZPeer * peer = [self.connectedPeers objectForKey:peerID.displayName];
     if(!peer){
+        NSLog(@"make a new peer %@ %@ %@",peerID.displayName,info,type);
         peer = [[MZPeer alloc] initWithPeer:peerID info:info];
     }else{
+        NSLog(@"have a peer %@ %@ %@",peerID.displayName,info,type);
         peer.discoveryInfo = info;
     }
     peer.status = PeerConnecting;

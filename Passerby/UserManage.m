@@ -9,5 +9,11 @@
 #import "UserManage.h"
 
 @implementation UserManage
-
+-(id) init{
+    self = [super init];
+    if(self){
+        self.myself = [User new];
+    }
+    return self;
+}
 @end

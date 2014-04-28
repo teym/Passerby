@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 xiami. All rights reserved.
 //
 
-#import "ServiceManage.h"
+#import "AppDelegate.h"
 #import <MZNetService.h>
 #import <FXKeychain.h>
 
@@ -21,6 +21,7 @@
         self.userMgr = [UserManage new];
         self.msgMgr = [MessageManage new];
         self.netService = [MZNetService new];
+        self.netService.delegate = self;
     }
     return self;
 }
@@ -31,11 +32,12 @@
     self.keys = keys;
 }
 -(void) saveKeys{
-    [[FXKeychain defaultKeychain] setObject:self.keys forKey:@"keyPair"];
+    if(self.keys)
+        [[FXKeychain defaultKeychain] setObject:self.keys forKey:@"keyPair"];
 }
 -(void) startService{
     [self saveKeys];
-    [self.netService startService:@{}];
+    [self.netService startService:@{@"name":TheUserManage.myself.name}];
 }
 -(void) stopService{
     [self.netService stopService];

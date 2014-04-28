@@ -22,6 +22,7 @@
 -(id) initWithPeer:(MCPeerID *)peer info:(NSDictionary *)info{
     self = [super init];
     if(self){
+        _peer = peer;
         _name = peer.displayName;
         _discoveryInfo = info;
         _status = PeerUnConnected;

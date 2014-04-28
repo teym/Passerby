@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
@@ -21,13 +21,13 @@
     return YES;
 }
 -(void) showPrepareWithFinish:(void(^)())block{
-    if(self.manage.isFirstRun){
-        [TheRootController performSegueWithIdentifier:@"showWelcome" sender:@{@"FinalBlock":block}];
-    }else{
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        if(self.manage.isFirstRun){
+            [TheRootController performSegueWithIdentifier:@"showWelcome" sender:@{@"FinalBlock":block}];
+        }else{
             block();
-        });
-    }
+        }
+    });
 }
 -(void) onReady{
     [self.manage startService];

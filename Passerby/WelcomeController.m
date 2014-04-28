@@ -10,7 +10,7 @@
 #import "AppDelegate.h"
 
 @interface WelcomeController ()
-@property (weak) UITextField * nameField;
+@property (weak) IBOutlet UITextField * nameField;
 @property (copy) void(^FinalBlock)();
 @end
 
@@ -51,5 +51,9 @@
 -(IBAction)onStart:(id)sender{
     TheUserManage.myself.name = self.nameField.text;
     self.FinalBlock();
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+-(IBAction)hideKeybord:(id)sender{
+    [self.nameField resignFirstResponder];
 }
 @end
