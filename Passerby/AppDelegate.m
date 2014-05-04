@@ -20,10 +20,33 @@
     }];
     return YES;
 }
+-(RACSignal*) firstRunActions{
+    RACSignal * keySignal = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [TheServiceManage makeKeyPair:^(id obj) {
+            [subscriber sendNext:obj];
+            [subscriber sendCompleted];
+        }];
+        return nil;
+    }];
+    RACSignal *nameSignal = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [TheRootController performSegueWithIdentifier:@"showWelcome" sender:@{@"FinalBlock":^(id obj){
+            [subscriber sendNext:obj];
+            [subscriber sendCompleted];
+        }}];
+        return nil;
+    }];
+    return [keySignal combineLatestWith:nameSignal];
+}
 -(void) showPrepareWithFinish:(void(^)())block{
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         if(self.manage.isFirstRun){
-            [TheRootController performSegueWithIdentifier:@"showWelcome" sender:@{@"FinalBlock":block}];
+            [[self firstRunActions] subscribeNext:^(id x) {
+                RACTupleUnpack(id keys,NSString* name)= x;
+                [self.manage ready:keys name:name];
+            } completed:^{
+                [TheRootController dismissViewControllerAnimated:YES completion:nil];
+                block();
+            }];
         }else{
             block();
         }

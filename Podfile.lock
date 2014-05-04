@@ -37,9 +37,10 @@ PODS:
     - libextobjc/RuntimeExtensions
   - libextobjc/RuntimeExtensions (HEAD based on 0.4)
   - libextobjc/UmbrellaHeader (HEAD based on 0.4)
-  - Multipeer (0.1.1):
+  - Multipeer (0.1.2):
     - Funcussion (~> 0.1.1)
   - ObjcAssociatedObjectHelpers (HEAD based on 1.2.1)
+  - PKCS-Universal (HEAD based on 1.0.2)
   - ReactiveCocoa (HEAD based on 2.3):
     - ReactiveCocoa/Core
     - ReactiveCocoa/no-arc
@@ -54,6 +55,7 @@ DEPENDENCIES:
   - libextobjc (HEAD)
   - Multipeer (from `https://raw.githubusercontent.com/teym/Multipeer/master/Multipeer.podspec`)
   - ObjcAssociatedObjectHelpers (HEAD)
+  - PKCS-Universal (HEAD)
   - ReactiveCocoa (HEAD)
 
 EXTERNAL SOURCES:
@@ -65,8 +67,9 @@ SPEC CHECKSUMS:
   FXKeychain: 90cc7bf9ba005e4d099a113a194792e7983c5778
   ISMethodSwizzling: 71d6d5758975902f240ea1bedc1aa4b5d1027421
   libextobjc: 2c9fc8226f0f38e562587f65172f93f0c9b4a47a
-  Multipeer: c30bbae00f88c5ee0b74197d0ddd45a6bad007f3
+  Multipeer: 1170d6c50307815bf7fe8acbf5a0e6ba97ac3726
   ObjcAssociatedObjectHelpers: 6e6d32dd3853f567d3b41924ff42eb565628ec38
+  PKCS-Universal: 965014cbcd9734d7b8db03d6f67c17f54141e76b
   ReactiveCocoa: 1f6265f9d521923d3efcc37b00722cefc16df269
 
 COCOAPODS: 0.32.1

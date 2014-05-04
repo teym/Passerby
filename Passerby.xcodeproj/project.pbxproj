@@ -33,6 +33,7 @@
 		F5CDA71218F58B690079C62F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA71018F58B690079C62F /* InfoPlist.strings */; };
 		F5CDA71418F58B690079C62F /* PasserbyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA71318F58B690079C62F /* PasserbyTests.m */; };
 		F5F90ECC190A5A760038BB5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F90ECB190A5A760038BB5E /* Security.framework */; };
+		F5FED9CD19148E9300212866 /* KeyManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9CC19148E9300212866 /* KeyManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		F5CDA71118F58B690079C62F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5CDA71318F58B690079C62F /* PasserbyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasserbyTests.m; sourceTree = "<group>"; };
 		F5F90ECB190A5A760038BB5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F5FED9CB19148E9300212866 /* KeyManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyManage.h; sourceTree = "<group>"; };
+		F5FED9CC19148E9300212866 /* KeyManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyManage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 				F511FA0A19040C8E00A04132 /* UIViewController+StoryboardHack.h */,
 				F511FA0B19040C8E00A04132 /* UIViewController+StoryboardHack.m */,
 				F5CDA6FD18F58B690079C62F /* Main.storyboard */,
+				F5FED9CB19148E9300212866 /* KeyManage.h */,
+				F5FED9CC19148E9300212866 /* KeyManage.m */,
 				F5CDA70018F58B690079C62F /* Images.xcassets */,
 				F5CDA6E918F58B690079C62F /* Supporting Files */,
 			);
@@ -361,6 +366,7 @@
 				F5CDA6EF18F58B690079C62F /* main.m in Sources */,
 				F5B1846D18F7E45B0054A151 /* ProfileViewController.m in Sources */,
 				F5CDA6F618F58B690079C62F /* RootViewController.m in Sources */,
+				F5FED9CD19148E9300212866 /* KeyManage.m in Sources */,
 				F522499C18FE7D5A0071F98D /* Message.m in Sources */,
 				F511FA091904044200A04132 /* WelcomeController.m in Sources */,
 				F522497318FAC6750071F98D /* UserManage.m in Sources */,

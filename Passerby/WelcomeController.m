@@ -11,7 +11,7 @@
 
 @interface WelcomeController ()
 @property (weak) IBOutlet UITextField * nameField;
-@property (copy) void(^FinalBlock)();
+@property (copy) void(^FinalBlock)(id);
 @end
 
 @implementation WelcomeController
@@ -49,9 +49,7 @@
 */
 #pragma mark -- action
 -(IBAction)onStart:(id)sender{
-    TheUserManage.myself.name = self.nameField.text;
-    self.FinalBlock();
-    [self dismissViewControllerAnimated:YES completion:nil];
+    self.FinalBlock(self.nameField.text);
 }
 -(IBAction)hideKeybord:(id)sender{
     [self.nameField resignFirstResponder];
