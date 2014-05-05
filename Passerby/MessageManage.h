@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Message.h"
 
+@class User;
 @interface MessageManage : NSObject
+@property (readonly) NSArray * messages;
+-(Message*) createMessage:(NSString*) content;
+-(Message*) message:(NSString*) content toUsr:(User*) user;
+-(void) addMessage:(Message*) message;
+@end
 
+@interface MessageManage (coder)
+-(id) encodeMessage:(Message*) msg;
+-(Message*) decodeMessage:(id) data;
 @end

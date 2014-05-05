@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Message : NSObject
-
+@property (readonly) NSString * fromUsr;
+@property (readonly) NSString * fromUsrName;
+@property (readonly) NSString * fromUsrImg;
+@property (readonly) NSString * toUsr;
+@property (readonly) NSString * toUsrName;
+@property (readonly) NSString * toUsrImg;
+@property (readonly) NSString * content;
+@property (readonly) NSString * time;
 @end

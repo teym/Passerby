@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <MZNetService.h>
+#import "MZNetService.h"
 #import <FXKeychain.h>
 
 @interface ServiceManage ()<MZNetServiceDelegate>
@@ -28,8 +28,8 @@
 #pragma mark -- action
 -(void) ready:(id)keys name:(NSString *)name{
     self.keys = keys;
-    self.userMgr.myself = [[User alloc] init];
-    self.userMgr.myself.name = name;
+    [self.userMgr updateName:name];
+    [self.msgMgr addMessage:[self.msgMgr createMessage:[NSString stringWithFormat:@"change name to %@",name]]];
 }
 -(void) initService{
     id keys = [[FXKeychain defaultKeychain] objectForKey:@"keyPair"];

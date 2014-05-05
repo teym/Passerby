@@ -8,9 +8,8 @@
 
 #import <Foundation/Foundation.h>
 @interface User : NSObject
-@property (strong) id iden;
-@property (strong) NSString * name;
-@property (strong) NSString * sex;
-@property (strong) NSString * logo;
-@property (strong) NSString * text;
+@property (readonly) NSString * name;
+@property (readonly) NSString * sex;
+@property (readonly) NSString * logo;
+@property (readonly) NSString * des;
 @end

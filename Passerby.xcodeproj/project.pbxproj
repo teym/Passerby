@@ -13,27 +13,26 @@
 		F522497018FA8FAB0071F98D /* ServiceManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F522496F18FA8FAB0071F98D /* ServiceManage.m */; };
 		F522497318FAC6750071F98D /* UserManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F522497218FAC6750071F98D /* UserManage.m */; };
 		F522497618FAC6830071F98D /* MessageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F522497518FAC6830071F98D /* MessageManage.m */; };
-		F522499918FE7D470071F98D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F522499818FE7D470071F98D /* User.m */; };
-		F522499C18FE7D5A0071F98D /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = F522499B18FE7D5A0071F98D /* Message.m */; };
 		F5B1846D18F7E45B0054A151 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B1846C18F7E45B0054A151 /* ProfileViewController.m */; };
-		F5CDA6E318F58B690079C62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA6E218F58B690079C62F /* Foundation.framework */; };
-		F5CDA6E518F58B690079C62F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA6E418F58B690079C62F /* CoreGraphics.framework */; };
-		F5CDA6E718F58B690079C62F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA6E618F58B690079C62F /* UIKit.framework */; };
 		F5CDA6ED18F58B690079C62F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA6EB18F58B690079C62F /* InfoPlist.strings */; };
 		F5CDA6EF18F58B690079C62F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6EE18F58B690079C62F /* main.m */; };
 		F5CDA6F318F58B690079C62F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6F218F58B690079C62F /* AppDelegate.m */; };
 		F5CDA6F618F58B690079C62F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6F518F58B690079C62F /* RootViewController.m */; };
-		F5CDA6F918F58B690079C62F /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6F818F58B690079C62F /* DataViewController.m */; };
 		F5CDA6FC18F58B690079C62F /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6FB18F58B690079C62F /* ModelController.m */; };
 		F5CDA6FF18F58B690079C62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA6FD18F58B690079C62F /* Main.storyboard */; };
 		F5CDA70118F58B690079C62F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA70018F58B690079C62F /* Images.xcassets */; };
 		F5CDA70818F58B690079C62F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA70718F58B690079C62F /* XCTest.framework */; };
-		F5CDA70918F58B690079C62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA6E218F58B690079C62F /* Foundation.framework */; };
-		F5CDA70A18F58B690079C62F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA6E618F58B690079C62F /* UIKit.framework */; };
 		F5CDA71218F58B690079C62F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA71018F58B690079C62F /* InfoPlist.strings */; };
 		F5CDA71418F58B690079C62F /* PasserbyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA71318F58B690079C62F /* PasserbyTests.m */; };
-		F5F90ECC190A5A760038BB5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F90ECB190A5A760038BB5E /* Security.framework */; };
 		F5FED9CD19148E9300212866 /* KeyManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9CC19148E9300212866 /* KeyManage.m */; };
+		F5FED9E919176DF200212866 /* MZNetDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9E219176DF200212866 /* MZNetDataTask.m */; };
+		F5FED9EA19176DF200212866 /* MZNetService.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9E419176DF200212866 /* MZNetService.m */; };
+		F5FED9EB19176DF200212866 /* MZPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9E519176DF200212866 /* MZPackage.m */; };
+		F5FED9EC19176DF200212866 /* MZPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9E619176DF200212866 /* MZPeer.m */; };
+		F5FED9ED19176DF200212866 /* MZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9E719176DF200212866 /* MZRequest.m */; };
+		F5FED9EE19176DF200212866 /* MZResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9E819176DF200212866 /* MZResponse.m */; };
+		F5FED9F11917717F00212866 /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9F01917717F00212866 /* MessageController.m */; };
+		F5FED9F41917786400212866 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FED9F31917786400212866 /* MessageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,16 +58,11 @@
 		F522497418FAC6830071F98D /* MessageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageManage.h; sourceTree = "<group>"; };
 		F522497518FAC6830071F98D /* MessageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageManage.m; sourceTree = "<group>"; };
 		F522499718FE7D470071F98D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		F522499818FE7D470071F98D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F522499A18FE7D5A0071F98D /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		F522499B18FE7D5A0071F98D /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		F52EDBB6CE974BA8B61187F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B1846B18F7E45B0054A151 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		F5B1846C18F7E45B0054A151 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		F5CDA6DF18F58B690079C62F /* Passerby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passerby.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5CDA6E218F58B690079C62F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F5CDA6E418F58B690079C62F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F5CDA6E618F58B690079C62F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5CDA6EA18F58B690079C62F /* Passerby-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passerby-Info.plist"; sourceTree = "<group>"; };
 		F5CDA6EC18F58B690079C62F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5CDA6EE18F58B690079C62F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,8 +71,6 @@
 		F5CDA6F218F58B690079C62F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5CDA6F418F58B690079C62F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F5CDA6F518F58B690079C62F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		F5CDA6F718F58B690079C62F /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		F5CDA6F818F58B690079C62F /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
 		F5CDA6FA18F58B690079C62F /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
 		F5CDA6FB18F58B690079C62F /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		F5CDA6FE18F58B690079C62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,9 +80,25 @@
 		F5CDA70F18F58B690079C62F /* PasserbyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasserbyTests-Info.plist"; sourceTree = "<group>"; };
 		F5CDA71118F58B690079C62F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5CDA71318F58B690079C62F /* PasserbyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasserbyTests.m; sourceTree = "<group>"; };
-		F5F90ECB190A5A760038BB5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F5FED9CB19148E9300212866 /* KeyManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyManage.h; sourceTree = "<group>"; };
 		F5FED9CC19148E9300212866 /* KeyManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyManage.m; sourceTree = "<group>"; };
+		F5FED9DB19176DF200212866 /* MZNetDataTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZNetDataTask.h; sourceTree = "<group>"; };
+		F5FED9DC19176DF200212866 /* MZNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZNetService.h; sourceTree = "<group>"; };
+		F5FED9DD19176DF200212866 /* MZPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZPackage.h; sourceTree = "<group>"; };
+		F5FED9DE19176DF200212866 /* MZPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZPeer.h; sourceTree = "<group>"; };
+		F5FED9DF19176DF200212866 /* MZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZRequest.h; sourceTree = "<group>"; };
+		F5FED9E019176DF200212866 /* MZResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZResponse.h; sourceTree = "<group>"; };
+		F5FED9E219176DF200212866 /* MZNetDataTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZNetDataTask.m; sourceTree = "<group>"; };
+		F5FED9E319176DF200212866 /* MZNetDataTask_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZNetDataTask_Private.h; sourceTree = "<group>"; };
+		F5FED9E419176DF200212866 /* MZNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZNetService.m; sourceTree = "<group>"; };
+		F5FED9E519176DF200212866 /* MZPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZPackage.m; sourceTree = "<group>"; };
+		F5FED9E619176DF200212866 /* MZPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZPeer.m; sourceTree = "<group>"; };
+		F5FED9E719176DF200212866 /* MZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZRequest.m; sourceTree = "<group>"; };
+		F5FED9E819176DF200212866 /* MZResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZResponse.m; sourceTree = "<group>"; };
+		F5FED9EF1917717F00212866 /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
+		F5FED9F01917717F00212866 /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
+		F5FED9F21917786400212866 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		F5FED9F31917786400212866 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5F90ECC190A5A760038BB5E /* Security.framework in Frameworks */,
-				F5CDA6E518F58B690079C62F /* CoreGraphics.framework in Frameworks */,
-				F5CDA6E718F58B690079C62F /* UIKit.framework in Frameworks */,
-				F5CDA6E318F58B690079C62F /* Foundation.framework in Frameworks */,
 				58C329B7C9814A988F6F93D3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,8 +115,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5CDA70818F58B690079C62F /* XCTest.framework in Frameworks */,
-				F5CDA70A18F58B690079C62F /* UIKit.framework in Frameworks */,
-				F5CDA70918F58B690079C62F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +124,8 @@
 		F5CDA6D618F58B690079C62F = {
 			isa = PBXGroup;
 			children = (
+				F5FED9D919176DF200212866 /* Multipeer */,
+				F5FED9D11915F96B00212866 /* Utils */,
 				F5CDA6E818F58B690079C62F /* Passerby */,
 				F5CDA70D18F58B690079C62F /* PasserbyTests */,
 				F5CDA6E118F58B690079C62F /* Frameworks */,
@@ -142,10 +146,6 @@
 		F5CDA6E118F58B690079C62F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F5F90ECB190A5A760038BB5E /* Security.framework */,
-				F5CDA6E218F58B690079C62F /* Foundation.framework */,
-				F5CDA6E418F58B690079C62F /* CoreGraphics.framework */,
-				F5CDA6E618F58B690079C62F /* UIKit.framework */,
 				F5CDA70718F58B690079C62F /* XCTest.framework */,
 				F52EDBB6CE974BA8B61187F9 /* libPods.a */,
 			);
@@ -156,33 +156,33 @@
 			isa = PBXGroup;
 			children = (
 				F5CDA6F118F58B690079C62F /* AppDelegate.h */,
-				F5CDA6F218F58B690079C62F /* AppDelegate.m */,
-				F5CDA6F418F58B690079C62F /* RootViewController.h */,
-				F5CDA6F518F58B690079C62F /* RootViewController.m */,
-				F5CDA6F718F58B690079C62F /* DataViewController.h */,
-				F5CDA6F818F58B690079C62F /* DataViewController.m */,
-				F5CDA6FA18F58B690079C62F /* ModelController.h */,
-				F5CDA6FB18F58B690079C62F /* ModelController.m */,
-				F5B1846B18F7E45B0054A151 /* ProfileViewController.h */,
-				F5B1846C18F7E45B0054A151 /* ProfileViewController.m */,
-				F511FA071904044200A04132 /* WelcomeController.h */,
-				F511FA081904044200A04132 /* WelcomeController.m */,
-				F522496E18FA8FAB0071F98D /* ServiceManage.h */,
-				F522496F18FA8FAB0071F98D /* ServiceManage.m */,
-				F522497118FAC6750071F98D /* UserManage.h */,
-				F522497218FAC6750071F98D /* UserManage.m */,
-				F522497418FAC6830071F98D /* MessageManage.h */,
-				F522497518FAC6830071F98D /* MessageManage.m */,
-				F522499718FE7D470071F98D /* User.h */,
-				F522499818FE7D470071F98D /* User.m */,
-				F522499A18FE7D5A0071F98D /* Message.h */,
-				F522499B18FE7D5A0071F98D /* Message.m */,
-				F511FA0A19040C8E00A04132 /* UIViewController+StoryboardHack.h */,
-				F511FA0B19040C8E00A04132 /* UIViewController+StoryboardHack.m */,
-				F5CDA6FD18F58B690079C62F /* Main.storyboard */,
 				F5FED9CB19148E9300212866 /* KeyManage.h */,
+				F522499A18FE7D5A0071F98D /* Message.h */,
+				F522497418FAC6830071F98D /* MessageManage.h */,
+				F5CDA6FA18F58B690079C62F /* ModelController.h */,
+				F5B1846B18F7E45B0054A151 /* ProfileViewController.h */,
+				F5CDA6F418F58B690079C62F /* RootViewController.h */,
+				F522496E18FA8FAB0071F98D /* ServiceManage.h */,
+				F511FA0A19040C8E00A04132 /* UIViewController+StoryboardHack.h */,
+				F522499718FE7D470071F98D /* User.h */,
+				F522497118FAC6750071F98D /* UserManage.h */,
+				F511FA071904044200A04132 /* WelcomeController.h */,
+				F5CDA6F218F58B690079C62F /* AppDelegate.m */,
 				F5FED9CC19148E9300212866 /* KeyManage.m */,
+				F522497518FAC6830071F98D /* MessageManage.m */,
+				F5CDA6FB18F58B690079C62F /* ModelController.m */,
+				F5B1846C18F7E45B0054A151 /* ProfileViewController.m */,
+				F5CDA6F518F58B690079C62F /* RootViewController.m */,
+				F522496F18FA8FAB0071F98D /* ServiceManage.m */,
+				F511FA0B19040C8E00A04132 /* UIViewController+StoryboardHack.m */,
+				F522497218FAC6750071F98D /* UserManage.m */,
+				F511FA081904044200A04132 /* WelcomeController.m */,
+				F5FED9EF1917717F00212866 /* MessageController.h */,
+				F5FED9F01917717F00212866 /* MessageController.m */,
+				F5FED9F21917786400212866 /* MessageCell.h */,
+				F5FED9F31917786400212866 /* MessageCell.m */,
 				F5CDA70018F58B690079C62F /* Images.xcassets */,
+				F5CDA6FD18F58B690079C62F /* Main.storyboard */,
 				F5CDA6E918F58B690079C62F /* Supporting Files */,
 			);
 			path = Passerby;
@@ -215,6 +215,49 @@
 				F5CDA71018F58B690079C62F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5FED9D11915F96B00212866 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F5FED9D919176DF200212866 /* Multipeer */ = {
+			isa = PBXGroup;
+			children = (
+				F5FED9DA19176DF200212866 /* Head */,
+				F5FED9E119176DF200212866 /* Src */,
+			);
+			path = Multipeer;
+			sourceTree = "<group>";
+		};
+		F5FED9DA19176DF200212866 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				F5FED9DB19176DF200212866 /* MZNetDataTask.h */,
+				F5FED9DC19176DF200212866 /* MZNetService.h */,
+				F5FED9DD19176DF200212866 /* MZPackage.h */,
+				F5FED9DE19176DF200212866 /* MZPeer.h */,
+				F5FED9DF19176DF200212866 /* MZRequest.h */,
+				F5FED9E019176DF200212866 /* MZResponse.h */,
+			);
+			path = Head;
+			sourceTree = "<group>";
+		};
+		F5FED9E119176DF200212866 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				F5FED9E219176DF200212866 /* MZNetDataTask.m */,
+				F5FED9E319176DF200212866 /* MZNetDataTask_Private.h */,
+				F5FED9E419176DF200212866 /* MZNetService.m */,
+				F5FED9E519176DF200212866 /* MZPackage.m */,
+				F5FED9E619176DF200212866 /* MZPeer.m */,
+				F5FED9E719176DF200212866 /* MZRequest.m */,
+				F5FED9E819176DF200212866 /* MZResponse.m */,
+			);
+			path = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,18 +399,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F522499918FE7D470071F98D /* User.m in Sources */,
-				F5CDA6F918F58B690079C62F /* DataViewController.m in Sources */,
 				F522497018FA8FAB0071F98D /* ServiceManage.m in Sources */,
+				F5FED9ED19176DF200212866 /* MZRequest.m in Sources */,
+				F5FED9EA19176DF200212866 /* MZNetService.m in Sources */,
 				F5CDA6F318F58B690079C62F /* AppDelegate.m in Sources */,
 				F511FA0C19040C8E00A04132 /* UIViewController+StoryboardHack.m in Sources */,
+				F5FED9F11917717F00212866 /* MessageController.m in Sources */,
 				F5CDA6FC18F58B690079C62F /* ModelController.m in Sources */,
+				F5FED9EC19176DF200212866 /* MZPeer.m in Sources */,
 				F522497618FAC6830071F98D /* MessageManage.m in Sources */,
 				F5CDA6EF18F58B690079C62F /* main.m in Sources */,
 				F5B1846D18F7E45B0054A151 /* ProfileViewController.m in Sources */,
 				F5CDA6F618F58B690079C62F /* RootViewController.m in Sources */,
+				F5FED9EB19176DF200212866 /* MZPackage.m in Sources */,
+				F5FED9F41917786400212866 /* MessageCell.m in Sources */,
+				F5FED9E919176DF200212866 /* MZNetDataTask.m in Sources */,
 				F5FED9CD19148E9300212866 /* KeyManage.m in Sources */,
-				F522499C18FE7D5A0071F98D /* Message.m in Sources */,
+				F5FED9EE19176DF200212866 /* MZResponse.m in Sources */,
 				F511FA091904044200A04132 /* WelcomeController.m in Sources */,
 				F522497318FAC6750071F98D /* UserManage.m in Sources */,
 			);

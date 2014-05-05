@@ -8,6 +8,25 @@
 
 #import "MessageManage.h"
 
+@interface Message ()
+@property (strong) NSString * iden;
+@end
+
 @implementation MessageManage
+-(id) init{
+    self = [super init];
+    if(self){
+        
+    }
+    return self;
+}
+-(void) addMessage:(Message *)message{
+    
+}
+@end
+
+
+@implementation Message
+
 
 @end
