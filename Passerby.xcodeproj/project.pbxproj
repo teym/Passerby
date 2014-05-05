@@ -18,7 +18,6 @@
 		F5CDA6EF18F58B690079C62F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6EE18F58B690079C62F /* main.m */; };
 		F5CDA6F318F58B690079C62F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6F218F58B690079C62F /* AppDelegate.m */; };
 		F5CDA6F618F58B690079C62F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6F518F58B690079C62F /* RootViewController.m */; };
-		F5CDA6FC18F58B690079C62F /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6FB18F58B690079C62F /* ModelController.m */; };
 		F5CDA6FF18F58B690079C62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA6FD18F58B690079C62F /* Main.storyboard */; };
 		F5CDA70118F58B690079C62F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA70018F58B690079C62F /* Images.xcassets */; };
 		F5CDA70818F58B690079C62F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA70718F58B690079C62F /* XCTest.framework */; };
@@ -71,8 +70,6 @@
 		F5CDA6F218F58B690079C62F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5CDA6F418F58B690079C62F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F5CDA6F518F58B690079C62F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		F5CDA6FA18F58B690079C62F /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		F5CDA6FB18F58B690079C62F /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		F5CDA6FE18F58B690079C62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5CDA70018F58B690079C62F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F5CDA70618F58B690079C62F /* PasserbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasserbyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,7 +156,6 @@
 				F5FED9CB19148E9300212866 /* KeyManage.h */,
 				F522499A18FE7D5A0071F98D /* Message.h */,
 				F522497418FAC6830071F98D /* MessageManage.h */,
-				F5CDA6FA18F58B690079C62F /* ModelController.h */,
 				F5B1846B18F7E45B0054A151 /* ProfileViewController.h */,
 				F5CDA6F418F58B690079C62F /* RootViewController.h */,
 				F522496E18FA8FAB0071F98D /* ServiceManage.h */,
@@ -170,7 +166,6 @@
 				F5CDA6F218F58B690079C62F /* AppDelegate.m */,
 				F5FED9CC19148E9300212866 /* KeyManage.m */,
 				F522497518FAC6830071F98D /* MessageManage.m */,
-				F5CDA6FB18F58B690079C62F /* ModelController.m */,
 				F5B1846C18F7E45B0054A151 /* ProfileViewController.m */,
 				F5CDA6F518F58B690079C62F /* RootViewController.m */,
 				F522496F18FA8FAB0071F98D /* ServiceManage.m */,
@@ -405,7 +400,6 @@
 				F5CDA6F318F58B690079C62F /* AppDelegate.m in Sources */,
 				F511FA0C19040C8E00A04132 /* UIViewController+StoryboardHack.m in Sources */,
 				F5FED9F11917717F00212866 /* MessageController.m in Sources */,
-				F5CDA6FC18F58B690079C62F /* ModelController.m in Sources */,
 				F5FED9EC19176DF200212866 /* MZPeer.m in Sources */,
 				F522497618FAC6830071F98D /* MessageManage.m in Sources */,
 				F5CDA6EF18F58B690079C62F /* main.m in Sources */,
