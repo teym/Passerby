@@ -17,7 +17,6 @@
 		F5CDA6ED18F58B690079C62F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA6EB18F58B690079C62F /* InfoPlist.strings */; };
 		F5CDA6EF18F58B690079C62F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6EE18F58B690079C62F /* main.m */; };
 		F5CDA6F318F58B690079C62F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6F218F58B690079C62F /* AppDelegate.m */; };
-		F5CDA6F618F58B690079C62F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6F518F58B690079C62F /* RootViewController.m */; };
 		F5CDA6FF18F58B690079C62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA6FD18F58B690079C62F /* Main.storyboard */; };
 		F5CDA70118F58B690079C62F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA70018F58B690079C62F /* Images.xcassets */; };
 		F5CDA70818F58B690079C62F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CDA70718F58B690079C62F /* XCTest.framework */; };
@@ -68,8 +67,6 @@
 		F5CDA6F018F58B690079C62F /* Passerby-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passerby-Prefix.pch"; sourceTree = "<group>"; };
 		F5CDA6F118F58B690079C62F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5CDA6F218F58B690079C62F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F5CDA6F418F58B690079C62F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		F5CDA6F518F58B690079C62F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		F5CDA6FE18F58B690079C62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5CDA70018F58B690079C62F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F5CDA70618F58B690079C62F /* PasserbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasserbyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,7 +154,6 @@
 				F522499A18FE7D5A0071F98D /* Message.h */,
 				F522497418FAC6830071F98D /* MessageManage.h */,
 				F5B1846B18F7E45B0054A151 /* ProfileViewController.h */,
-				F5CDA6F418F58B690079C62F /* RootViewController.h */,
 				F522496E18FA8FAB0071F98D /* ServiceManage.h */,
 				F511FA0A19040C8E00A04132 /* UIViewController+StoryboardHack.h */,
 				F522499718FE7D470071F98D /* User.h */,
@@ -167,7 +163,6 @@
 				F5FED9CC19148E9300212866 /* KeyManage.m */,
 				F522497518FAC6830071F98D /* MessageManage.m */,
 				F5B1846C18F7E45B0054A151 /* ProfileViewController.m */,
-				F5CDA6F518F58B690079C62F /* RootViewController.m */,
 				F522496F18FA8FAB0071F98D /* ServiceManage.m */,
 				F511FA0B19040C8E00A04132 /* UIViewController+StoryboardHack.m */,
 				F522497218FAC6750071F98D /* UserManage.m */,
@@ -404,7 +399,6 @@
 				F522497618FAC6830071F98D /* MessageManage.m in Sources */,
 				F5CDA6EF18F58B690079C62F /* main.m in Sources */,
 				F5B1846D18F7E45B0054A151 /* ProfileViewController.m in Sources */,
-				F5CDA6F618F58B690079C62F /* RootViewController.m in Sources */,
 				F5FED9EB19176DF200212866 /* MZPackage.m in Sources */,
 				F5FED9F41917786400212866 /* MessageCell.m in Sources */,
 				F5FED9E919176DF200212866 /* MZNetDataTask.m in Sources */,

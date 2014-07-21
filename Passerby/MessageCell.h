@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class Message;
 @interface MessageCell : UICollectionViewCell
 @property (weak) IBOutlet UIImageView * usrImg;
 @property (weak) IBOutlet UILabel * usrName;
 @property (weak) IBOutlet UILabel * time;
 @property (weak) IBOutlet UILabel * content;
+-(void) configWithMessage:(Message*) msg;
 @end

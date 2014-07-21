@@ -27,5 +27,6 @@
     // Drawing code
 }
 */
-
+-(void) configWithMessage:(Message *)msg{
+}
 @end

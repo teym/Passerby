@@ -16,7 +16,7 @@
 
 #define TheApplication [UIApplication sharedApplication]
 #define TheAppDelegate ((AppDelegate*)[TheApplication delegate])
-#define TheRootController ((RootViewController*)[[TheAppDelegate window] rootViewController])
+#define TheRootController ((UINavigationController*)[[TheAppDelegate window] rootViewController])
 #define TheServiceManage [TheAppDelegate manage]
 #define TheUserManage  [TheServiceManage userMgr]
 #define TheMsgManage  [TheServiceManage msgMgr]
